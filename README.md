@@ -21,3 +21,11 @@ Add GLFW library:
 Bugs are reported to the issue tracker. Or you can send email to me <p3g4sus@foxmail.com>
 
 (I'm not a good UI designer. Also, this project is combined with C++ and C)
+
+## 我显示出的是中文乱码!!! 怎么办?
+这里特别为中国用户说明，国内的服务器的中文内容是GB2312编码的，而RakMagic的界面上显示的是UTF-8的中文，
+编码不同，自然就乱码了。
+
+如果你需要转码，去xml设置里面，把`interface`里的`gb2312`改成1。之后RakMagic就会帮你转码 (但是日志里的编码仍然是GB2312)
+
+还有一点，软件目前**没有中文版本**，我没有找到多语言解决方案
