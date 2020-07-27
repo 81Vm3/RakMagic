@@ -1,0 +1,71 @@
+
+<!--
+#########################
+	给中文用户的一个提示:
+	A tip for Chinese users:
+#########################
+
+	如果你需要转码 GB2312 -> UTF-8 ，把interface-gb2312开启
+	RakMagic 会把服务器发送过来的内容转换成 UTF-8 编码，然后显示在控制台 (绝大多数中文服务器使用GB2312)
+	但是，在日志里的内容编码是不变的
+!-->
+
+<RakMagic>
+	<server 
+		host="127.0.0.1"
+		port="7777"
+		password=""
+	/>
+	<client
+		update_rate="40"
+		netgame="4057"
+		version="0.3.7"
+		nickname="RakMagic"
+		reconnect_time="3000"
+		dafault_class="0"
+		position="0.0 0.0 0.0"
+		keep_position="0"
+		damage="1"
+		respawn_time="3000"
+	/> <!-- 
+		You can't change 'version' for joining a server that requires higher or lower client version. The only way to do so is change 'netgame'
+		'keep_position' indicates whether server can move you or not
+		'position' The location which the bot always keeps at, if you disable 'keep_position', this option means nothing
+		-->
+	<follow
+		copy_health="0" 
+		copy_weapon="1"
+		follow_offset="2.0 0.8 0.0"
+		enter_distance="5.0"
+	/> <!--
+		'copy_health' includes health and armour 
+		'enter_distance' indicates how close the bot can enter your vehicle
+		(Notice:The bot always enters the first passenger seat)
+		-->
+	<animation
+		index="981"
+		loop="1"
+		lockx="1"
+		locky="1"
+		time="0"
+	/> <!-- 
+		Editing this field changes default animation
+		'index' The index of the animation you want to apply (Use command !ganim to get index) (Set as zero for no animation)
+		'loop' If set to 1, the animation will loop. If set to 0, the animation will play once.
+		'lockx' If set to 0, the player is returned to their old X coordinate once the animation is complete (for animations that move the player such as walking). 1 will not return them to their old position.
+		'locky' Same as above but for the Y axis. Should be kept the same as the previous parameter.
+		'time' Timer in milliseconds. For a never-ending loop it should be 0.
+		-->
+	<playback
+		autoplay="0"
+		death_pause="1"
+	/> <!--
+		'death_pause' pause playing playback when you died
+		-->
+	<interface
+		clear_color="85 91 110"
+		font="wqy-microhei.ttc"
+		font_size="16"
+		gb2312="1"
+	/>
+</RakMagic>
