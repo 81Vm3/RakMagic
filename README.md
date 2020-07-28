@@ -5,9 +5,12 @@ Fake client for SA-MP
 RakMagic is a tool for SA-MP which can connect a fake client to a SA-MP server. 
 Its has graphical UI, ability to read and write NPC record, simulation of player (Taking damage, doing animations)
 
-## Configuration
-Configurations are saved in `settings.xml`
-For more detailed information, see `README_MORE.md`
+## How to spawn the client (IMPORTANT! OR GET BANNED)
+When you connected to server, click **Request spawn** first, then click **Spawn** to spawn the client
+
+**DO NOT** ever click **Spawn** before you click **Request spawn**, force spawning will get you banned on the server!!!
+
+What **Request spawn** actually do is tell the server that you have "clicked Spawn button in class selector"
 
 ## Compiling requirements:
 Visual Studio 2017
