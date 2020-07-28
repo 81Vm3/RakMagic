@@ -30,7 +30,7 @@
 	/> <!-- 
 		You can't change 'version' for joining a server that requires higher or lower client version. The only way to do so is change 'netgame'
 		'keep_position' indicates whether server can move you or not
-		'position' The location which the bot always keeps at, if you disable 'keep_position', this option means nothing
+		'position' The location which the bot will go to after joining game
 		-->
 	<follow
 		copy_health="0" 

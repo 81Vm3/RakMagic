@@ -8,8 +8,7 @@
 #define RAKMAGIC_ABOUT_MESSAGE RAKMAGIC_NAME RAKMAGIC_VERSION \
 "\n\nCopyright (C) 2020 Blume <p3g4sus@foxmail.com> and contributors\n\
 Special thanks to: RakSAMPClient, FCNPC\n\n\
-If you find a bug, please report it to my e-mail (p3g4sus@foxmail.com)\n\
-If you have advice, please also send it to me\n\n"
+
 
 #include <iostream>
 #include <vector>

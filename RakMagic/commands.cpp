@@ -24,7 +24,8 @@ void cmd_teleport(const char *args) {
 	float pos[3];
 	if (sscanf(args, "%f%f%f", &pos[0], &pos[1], &pos[2]) < 3) {
 		logPrintf("Teleport to coords: [x] [y] [z]");
-	} else {
+	}
+	else {
 		memcpy(RakMagic::fPosition, pos, (sizeof pos[0]) * 3);
 	}
 }
@@ -179,6 +180,16 @@ void cmd_veh(const char *args) {
 	}
 }
 
+void cmd_foffset(const char *args) {
+	float pos[3];
+	if (sscanf(args, "%f%f%f", &pos[0], &pos[1], &pos[2]) < 3) {
+		logPrintf("Set follow offset: [x] [y] [z]");
+	}
+	else {
+		memcpy(gConfig.fFollowOffset, pos, (sizeof pos[0]) * 3);
+	}
+}
+
 void registerAllCommands() {
 	using namespace Interface::Console;
 	AddCommand("unload-cmd", cmd_unloadcmd);
@@ -198,4 +209,5 @@ void registerAllCommands() {
 	AddCommand("armor", cmd_armor);
 	AddCommand("fillhp", cmd_fillhp);
 	AddCommand("veh", cmd_veh);
+	AddCommand("foffset", cmd_foffset);
 }
