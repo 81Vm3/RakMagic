@@ -5,6 +5,7 @@
 lib/GLFW/
 bin/imgui.ini
 bin/log.txt
+bin/RakMagic.exe
 
 # User-specific files
 *.suo
