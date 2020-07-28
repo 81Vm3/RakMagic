@@ -3,6 +3,7 @@
 
 # GLFW LIBRARY
 lib/GLFW/
+bin/RakMagic.exe
 bin/imgui.ini
 bin/log.txt
 
