@@ -66,6 +66,6 @@
 		clear_color="85 91 110"
 		font="wqy-microhei.ttc"
 		font_size="16"
-		gb2312="1"
+		gb2312="0"
 	/>
 </RakMagic>
