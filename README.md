@@ -25,7 +25,7 @@ Add GLFW library:
 (RakNet and ImGui is included by default)
 
 ## Reporting bugs
-Bugs are reported to the issue tracker. Or you can send email to me <p3g4sus@foxmail.com>
+Bugs are reported to the issue tracker. Or you can mail me via <p3g4sus@foxmail.com>
 
 (I'm not a good UI designer. Also, this project is combined with C++ and C)
 
