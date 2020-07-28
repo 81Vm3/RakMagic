@@ -1,5 +1,5 @@
 # RakMagic
-Client for SA-MP
+Fake client for SA-MP
 
 ## Introduction
 RakMagic is a tool for SA-MP which can connect a fake client to a SA-MP server. 
