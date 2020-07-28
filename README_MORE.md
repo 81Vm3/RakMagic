@@ -11,4 +11,4 @@ As same as most SA-MP bot cheats, RakMagic can copy a player's data, including o
 
 Before following a player, you need to switch the mode from ***Normal*** to ***Follow***, then use `!follow` command to set the player you want to follow 
 
-Instead of copying vehicle packets, RakMagic enters the vehicle as a passenger. Notice that it always enters the first seat
+Instead of copying vehicle packets, RakMagic enters the vehicle as a passenger (Notice that it always enters the first seat). The client synchornizes with "normal" mode automatically if the vehicle is too far away.
