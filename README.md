@@ -21,18 +21,18 @@ Add GLFW library:
 
 ## Q. ***How to spawn the client?***
 When you are ready to spawn, click **Request spawn** first, then click **Spawn** to spawn the client.
-You must click **Request spawn** first or you will get yourself banned on the server
+You must click **Request spawn** first or you will get yourself banned on the server.
 
 ## Q. ***How to get into a vehicle?***
-Type command `!veh` to set driving vehicle ID. To cancel driving, use -1 as argument
-If the vehicle ID is invalid, the program will find another vehicle that has same ID
+Type command `!veh` to set driving vehicle ID. To cancel driving, use -1 as argument.
+If the vehicle ID is invalid, the program will find another vehicle that has same ID.
 
 ## Q. ***What is playback?***
 A playback is a NPC record which has packets written in.
 
 You can only play playback & record playback when the client is spawned. 
 
-There's a [NPC recording tutorial](https://forum.sa-mp.com/showthread.php?t=95034) on SA-MP forum
+There's a [NPC recording tutorial](https://forum.sa-mp.com/showthread.php?t=95034) on SA-MP forum.
 
 ## Q. ***The program is unable to render Chinese characters (中文乱码)***
 国内的服务器的中文内容是GB2312编码的，而RakMagic的界面上显示的是UTF-8的中文
