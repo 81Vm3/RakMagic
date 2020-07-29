@@ -32,9 +32,9 @@ A playback is a NPC record which has packets written in.
 
 You can only play playback & record playback when the client is spawned. 
 
-There's a [NPC recording tutorial]() on SA-MP forum
+There's a [NPC recording tutorial](https://forum.sa-mp.com/showthread.php?t=95034) on SA-MP forum
 
-## Q. ***The program is unable to render Chinese character (中文乱码)***
+## Q. ***The program is unable to render Chinese characters (中文乱码)***
 国内的服务器的中文内容是GB2312编码的，而RakMagic的界面上显示的是UTF-8的中文
 
 如果你需要转码，去xml设置里面，把interface里的gb2312改成1。之后RakMagic就会帮你转码 (但是日志里的编码仍然是GB2312)
