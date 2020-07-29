@@ -34,6 +34,14 @@ You can only play playback & record playback when the client is spawned.
 
 There's a [NPC recording tutorial](https://forum.sa-mp.com/showthread.php?t=95034) on SA-MP forum.
 
+## Q. ***Is there a 0.3.DL version?***
+It's not recommended to join a 0.3.DL server with RakMagic. However there is a trick: By changing netgame version.
+
+**4057** is for 0.3.7
+
+**4062** is for 0.3.DL
+
+
 ## Q. ***The program is unable to render Chinese characters (中文乱码)***
 国内的服务器的中文内容是GB2312编码的，而RakMagic的界面上显示的是UTF-8的中文
 
