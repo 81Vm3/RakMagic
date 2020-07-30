@@ -37,7 +37,7 @@ You can only play playback & record playback when the client is spawned.
 There's a [NPC recording tutorial](https://forum.sa-mp.com/showthread.php?t=95034) on SA-MP forum.
 
 ## Q. ***Is there a 0.3.DL version?***
-It's not recommended to join a 0.3.DL server with RakMagic. However there is a trick: By changing netgame version.
+No. And it's not recommended to join a 0.3.DL server with RakMagic. However there's a trick that may works: By changing netgame version.
 
 **4057** is for 0.3.7
 
