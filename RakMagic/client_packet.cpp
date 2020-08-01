@@ -305,7 +305,7 @@ namespace RakMagic {
 			
 			bsBulletSync.Read((PCHAR)&bulletData, sizeof(BULLET_SYNC_DATA));
 
-			if (gConfig.bDamage) {
+			if (gConfig.bDamage && iMode != RUNMODE_AFK) {
 				if (fHealth > 0) {
 					if (bulletData.iHitID == iPlayerID && bulletData.bHitType == BULLET_HIT_TYPE_PLAYER) {
 						TakeBulletDamage(PlayerID, bulletData.bWeaponID);
