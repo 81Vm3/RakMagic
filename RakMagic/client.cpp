@@ -172,6 +172,10 @@ namespace RakMagic {
 					case RUNMODE_FOLLOW:
 						AI::UpdateFollow();
 						break;
+
+					/*case RUNMODE_AFK:
+						break;
+						//Do nothing */
 					}
 					uUpdateTick = GetTickCount();
 				}
@@ -310,6 +314,7 @@ namespace RakMagic {
 			uRespawnTick = GetTickCount();
 		}
 	}
+
 	void SendWastedNotification(BYTE byteDeathReason, PLAYERID WhoWasResponsible) {
 		RakNet::BitStream bsPlayerDeath;
 		bsPlayerDeath.Write(byteDeathReason);
