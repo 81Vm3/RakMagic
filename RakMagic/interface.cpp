@@ -171,13 +171,13 @@ namespace Interface {
 			}
 			ImGui::EndChild();
 			
-			//small left box 
+			//spawn menu
 			{
 				fy += fh + fSeparate;
 				fh = ScreenHeight - fy - fSeparate;
 				ImGui::SetNextWindowPos(ImVec2(fx, fy));
 				ImGui::SetNextWindowBgAlpha(fBoxAlpha);
-				ImGui::BeginChild("leftbox2", ImVec2(fw, fh), &bTrue);
+				ImGui::BeginChild("leftbox2", ImVec2(fw, fh), &bTrue, ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse);
 				//render buttons
 				ImVec2 centered(ImGui::GetWindowSize().x - (style->WindowPadding.x * 2), 0.0f);
 				if (ImGui::Button("Request spawn", centered)) {
